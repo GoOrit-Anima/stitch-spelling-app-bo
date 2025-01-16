@@ -73,7 +73,7 @@ function App() {
     window.speechSynthesis.cancel();
     
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.rate = 0.8;
+    utterance.rate = 0.5;
     utterance.pitch = 1;
     utterance.lang = 'en-US';
     
